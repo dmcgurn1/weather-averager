@@ -6,6 +6,7 @@ This is a python project that collects weather data from the 4 following sources
 The variables are collected and put into numpy arrays and then at the end they are averaged.
 
 The output is either an average of the weather variables, if available, or a singular element from one of the sources
+
 -> (e.g. temperature comes from all 4 sources and then averaged, rain chance comes from 2 sources and then averaged,
 but gust speed is only present on the MetOffice API so it is not an average)
 
@@ -19,7 +20,9 @@ There will be errors when you run the code as I have taken out my API codes and 
 
 In main.py:
 line 20 asks the user for their name as an input and then functions.py uses this input to assign the latitude, longitude, BBC weather url, and the yrno url
+
 line 38 requires your OpenWeather API key
+
 line 125 is where the url for the moon phase is located, by default it is 'london', but this can be changed to other cities (e.g. 'https://www.timeanddate.com/moon/phases/france/paris')
 
 In functions.py:
