@@ -1,5 +1,7 @@
 # weather-averager
-This is a python project that collects weather data from the 4 following sources: OpenWeather API, MetOffice Weather API, BBC Weather website, yrno website, as well as the mooon from timeanddate.com
+This is a python project that collects weather data from the 4 following sources: OpenWeather API, MetOffice Weather API, BBC Weather website, yrno website, 
+
+(as well as the moon from timeanddate.com)
 
 The output is an average of the weather variables/more explanatory weather output due to unique elements from each API/website
 
