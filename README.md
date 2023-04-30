@@ -1,5 +1,5 @@
 # weather-averager
-This is a python project that collects weather data from the 4 following sources: 
+This is a python project that collects weather data for the current hour from the 4 following sources: 
 
 OpenWeather API, MetOffice Weather API, BBC Weather website, yrno website,
 
