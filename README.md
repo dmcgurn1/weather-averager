@@ -7,7 +7,7 @@ The variables are collected and put into numpy arrays and then at the end they a
 
 The output is either an average of the weather variables, if available, or a singular element from one of the sources
 -> (e.g. temperature comes from all 4 sources and then averaged, rain chance comes from 2 sources and then averaged,
-but gust speed is only present on the MetOffice API so it is not averaged)
+but gust speed is only present on the MetOffice API so it is not an average)
 
 You will require your own API key for OpenWeather, as well as your own API 'id' and 'secret' for MetOffice
 
