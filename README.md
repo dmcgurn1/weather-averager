@@ -1,25 +1,22 @@
 # weather-averager
-This is a python project that collects weather data for the current hour from the 4 following sources: 
+This is a Python project that collects weather data for the current hour from the 4 following sources: 
 
-OpenWeather API, MetOffice Weather API, BBC Weather website, yrno website,
-
-(as well as the moon phase from timeanddate.com)
+OpenWeather API, MetOffice Weather API, BBC Weather website, yrno website, (as well as the moon phase from timeanddate.com)
 
 The variables are collected and put into numpy arrays and then at the end they are averaged.
 
 The output is either an average of the weather variables, if available, or a singular element from one of the sources
-
--> (e.g. temperature comes from all 4 sources and then averaged, rain chance comes from 2 sources and then averaged,
+-> (e.g. current temperature comes from all 4 sources and then averaged, rain chance comes from 2 sources and then averaged,
 but gust speed is only present on the MetOffice API so it is not an average)
 
-You will require your own API key for OpenWeather, as well as your own API 'id' and 'secret' for MetOffice
+IMPORTANT: You will require your own API key for OpenWeather, as well as your own API 'id' and 'secret' for MetOffice
 
 main.py uses the other .py files to create the variables and give the output
 
 MetOffice weather uses the 'significantweathercodes.json' and 'uv index codes.json'
 
 
-There will be errors when you run the code as I have taken out my API codes and left other variables needing to be assigned a value before the code is operational:
+(BEFORE RUNNING): There will be errors when you run the code as I have taken out my API codes and left other variables needing to be assigned a value before the code is operational:
 
 In main.py:
 
